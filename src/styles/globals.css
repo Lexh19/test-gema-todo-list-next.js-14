@@ -2,113 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
+  @apply font-sans bg-gray-100; /* Ganti dengan kelas Tailwind */
   font-family: "Poppins", sans-serif;
-  background-color: #F1F1F1;
 }
 
 .box-nav {
-  background-color: #26355D;
-  height: 10vh;
-  width: 75%;
+  @apply bg-[#26355D] h-[10vh] w-[75%];
 }
 
 .text-navbar {
-  color: aliceblue;
-  font-size: 1.1rem;
-  cursor: pointer;
+  @apply text-white text-[1.1rem] cursor-pointer;
 }
 
 .text-back {
-  font-size: 2rem;
-  font-weight: bold;
-  color: black;
-  cursor: pointer;
+  @apply text-2xl font-bold text-black cursor-pointer;
 }
 
 .text-jdl {
-  font-size: 1.5rem;
-  font-weight: 700;
+  @apply text-xl font-bold;
 }
 
 .text-navbar:hover {
-  color: rgb(208, 220, 231);
+  @apply text-[#D0DCE7];
 }
 
 .text-back:hover {
-  color: white;
+  @apply text-white;
 }
 
 .card {
-  width: 80%;
-  background-color: #E2DFD0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  @apply w-[80%] bg-[#E2DFD0] mb-4 p-4 rounded-lg; /* Ganti dengan kelas Tailwind */
 }
 
 .card-login {
-  width: 35rem;
-  height: 80vh;
+  @apply w-[35rem] h-[80vh];
 }
 
 .card-register {
-  width: 50rem;
-  height: 80vh;
+  @apply w-[50rem] h-[80vh];
 }
 
 .card-todo {
-  width: 45rem;
+  @apply w-[45rem];
 }
 
 .card-detail {
-  width: 45rem;
-  height: 25vh;
+  @apply w-[45rem] h-[25vh];
 }
 
 .desc {
-  width: 30rem;
-  border: 1px solid gray
+  @apply w-[30rem] border border-gray-400;
 }
 
 .btn-green {
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  background-color: #41B06E;
-  padding: 5px 20px 5px 20px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  @apply text-white text-[1rem] font-semibold bg-[#41B06E] px-5 py-1 rounded-lg;
 }
 
 .btn-lg-blue {
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  background-color: #1679AB;
-  padding: 5px 20px 5px 20px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  @apply text-white text-[1rem] font-semibold bg-[#1679AB] px-5 py-1 rounded-lg;
 }
 
 .btn-green:hover {
-  background-color: #90D26D;
+  @apply bg-[#90D26D];
 }
 
 .btn-lg-blue:hover {
-  background-color: #4793AF;
+  @apply bg-[#4793AF];
 }
 
 .password-container {
@@ -120,5 +82,24 @@ body {
 }
 
 .inp {
-  width: 30rem;
+  @apply w-[30rem];
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .box-nav {
+    @apply w-full; /* Mengubah lebar menjadi 100% di layar kecil */
+  }
+
+  .card,
+  .card-login,
+  .card-register,
+  .card-todo,
+  .card-detail {
+    @apply w-full; /* Mengubah lebar menjadi 100% di layar kecil */
+  }
+
+  .inp {
+    @apply w-full; /* Mengubah lebar input menjadi 100% di layar kecil */
+  }
 }
