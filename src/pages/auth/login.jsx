@@ -25,7 +25,7 @@ const LoginPage = () => {
       <title>Login | TodosNow</title>
     </Head>
       <div className="w-full h-screen">
-        <div className="absolute ml-5 mt-5 bg-blue">
+        <div className="absolute ml-5 mt-5 bg-blue-600">
           <p className="text-back" onClick={() => router.push("/")}>
             Kembali
           </p>
