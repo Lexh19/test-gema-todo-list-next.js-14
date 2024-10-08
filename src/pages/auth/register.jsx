@@ -23,11 +23,11 @@ const RegisterPage = () => {
   return (
     <>
     <Head>
-      <title>Register | TodosNow</title>
+      <title>Register | To do lits</title>
     </Head>
       <div className="w-full h-screen">
-        <div className="absolute mt-5 ml-5">
-          <p className="text-back" onClick={() => router.push("/")}>
+      <div className="absolute ml-5 mt-5 bg-blue-600 rounded-lg py-2 px-10">
+            <p className="text-back" onClick={() => router.push("/")}>
             Kembali
           </p>
         </div>

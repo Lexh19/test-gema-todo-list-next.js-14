@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Beranda | TodosNow</title>
+        <title>Beranda | To do lits</title>
       </Head>
       <LayoutFirst>
         <HeaderHome />

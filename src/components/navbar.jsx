@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="container my-3 flex justify-center">
       <div className="box-nav flex items-center gap-3 py-3 px-5 rounded-xl">
-        <p className="text-white text-2xl font-bold">TodosNow</p>
+        <p className="text-white text-2xl font-bold">To do lits</p>
         <div className="flex gap-5 mt-1 ml-16">
           <p
             className="text-navbar font-medium"

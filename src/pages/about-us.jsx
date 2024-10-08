@@ -5,7 +5,7 @@ const AboutUsPage = () => {
   return (
     <>
       <Head>
-        <title>Tentang Kami | TodosNow</title>
+        <title>Tentang Kami | To do lits</title>
       </Head>
       <LayoutFirst>
         <p className="text-4xl font-bold text-center">Tentang Kami</p>

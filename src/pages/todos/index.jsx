@@ -104,11 +104,11 @@ const TodosPage = () => {
   return (
     <>
     <Head>
-      <title>Data Todo | TodosNow</title>
+      <title>Data Todo | To do lits</title>
     </Head>
       <LayoutSecond>
         <div className="flex flex-col justify-center items-center w-full">
-          <p className="text-4xl font-bold">TodosNow</p>
+          <p className="text-4xl font-bold">To do lits</p>
           <div className="mt-3 flex flex-col justify-center items-center gap-3 w-full">
             <input
               className="inp h-12 pl-3 rounded-xl"

@@ -5,7 +5,7 @@ const OurServicePage = () => {
   return (
     <>
     <Head>
-        <title>Tentang kami | TodosNow</title>
+        <title>Tentang kami | To do lits</title>
     </Head>
       <LayoutFirst>
         <div className="flex justify-center">

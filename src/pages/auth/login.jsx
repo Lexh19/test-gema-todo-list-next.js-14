@@ -22,11 +22,11 @@ const LoginPage = () => {
   return (
     <>
     <Head>
-      <title>Login | TodosNow</title>
+      <title>Login | To do lits</title>
     </Head>
       <div className="w-full h-screen">
-        <div className="absolute ml-5 mt-5 bg-blue-600">
-          <p className="text-back" onClick={() => router.push("/")}>
+        <div className="absolute ml-5 mt-5 bg-blue-600 rounded-lg py-2 px-10">
+          <p className="text-back " onClick={() => router.push("/")}>
             Kembali
           </p>
         </div>

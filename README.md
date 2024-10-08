@@ -1,4 +1,4 @@
-# SET UP PROJEK TODOSNOW
+# SET UP PROJEK To do lits
 
  Sebelum memulai proyek ini, pastikan Anda telah menginstal aplikasi NodeJS di perangkat Anda. Jika belum, silakan unduh dan instal melalui tautan berikut: https://nodejs.org/en/download/prebuilt-installer.
 

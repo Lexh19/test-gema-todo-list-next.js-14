@@ -24,7 +24,7 @@ body {
 .text-back {
   font-size: 2rem;
   font-weight: bold;
-  color: #D24545;
+  color: black;
   cursor: pointer;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .text-back:hover {
-  color: #DD5746;
+  color: white;
 }
 
 .card {

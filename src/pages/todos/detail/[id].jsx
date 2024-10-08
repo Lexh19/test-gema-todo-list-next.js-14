@@ -36,7 +36,7 @@ const DetailTodo = () => {
   return (
     <>
     <Head>
-      <title>Detail Todo | TodosNow</title>
+      <title>Detail Todo | To do lits</title>
     </Head>
       <div className="w-full h-screen">
         <div className="absolute ml-5 mt-5">
