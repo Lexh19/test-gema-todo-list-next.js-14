@@ -1,7 +1,7 @@
 const axios = require('axios')
 require("dotenv").config();
 
-const baseURL = process.env.NEXT_PUBLIC_BASE_URL || "https://gema-test.vercel.app/api";
+const baseURL = process.env.NEXT_PUBLIC_BASE_URL || "https://test-gema.vercel.app/api";
 
 const instance = axios.create({ baseURL });
 
