@@ -137,7 +137,7 @@ const TodosPage = () => {
               </button>
             </div>
           </div>
-          <div className="mt-5 w-full">
+          <div className="mt-5 flex flex-col justify-center items-center gap-3 w-full">
             {dataTodos.length === 0 ? (
               <div className="text-center mt-10">
                 <p className="text-4xl text-red-600 font-bold">404</p>
