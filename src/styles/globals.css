@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F1F1F1;
+}
+
+.box-nav {
+  background-color: #26355D;
+  height: 10vh;
+  width: 75%;
+}
+
+.text-navbar {
+  color: aliceblue;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.text-back {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #D24545;
+  cursor: pointer;
+}
+
+.text-jdl {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.text-navbar:hover {
+  color: rgb(208, 220, 231);
+}
+
+.text-back:hover {
+  color: #DD5746;
+}
+
+.card {
+  width: 80%;
+  background-color: #E2DFD0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card-login {
+  width: 35rem;
+  height: 80vh;
+}
+
+.card-register {
+  width: 50rem;
+  height: 80vh;
+}
+
+.card-todo {
+  width: 45rem;
+}
+
+.card-detail {
+  width: 45rem;
+  height: 25vh;
+}
+
+.desc {
+  width: 30rem;
+  border: 1px solid gray
+}
+
+.btn-green {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #41B06E;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-lg-blue {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #1679AB;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-green:hover {
+  background-color: #90D26D;
+}
+
+.btn-lg-blue:hover {
+  background-color: #4793AF;
+}
+
+.password-container {
+  position: relative;
+}
+
+.img-password {
+  position: absolute;
+}
+
+.inp {
+  width: 30rem;
+}
