@@ -2,6 +2,8 @@ import { register } from "@/modules/fetch/auth";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Head from "next/head";
+import Image from "next/image";
+
 
 const RegisterPage = () => {
     const [name, setName] = useState(null)
@@ -25,11 +27,19 @@ const RegisterPage = () => {
     <Head>
       <title>Register | To do lits</title>
     </Head>
-      <div className="w-full h-screen">
+    <div className="w-full h-screen grid grid-cols-1 md:grid-cols-2">
       <div className="absolute ml-5 mt-5 bg-blue-600 rounded-lg py-2 px-10">
             <p className="text-back" onClick={() => router.push("/")}>
             Kembali
           </p>
+        </div>
+        <div className="hidden md:flex justify-center items-center">
+          <Image
+            className="rounded-xl"
+            src={'/registrasi.png'}
+            alt="Regiter Illustration"
+            width={400} height={100}
+          />
         </div>
         <div className="flex justify-center items-center w-full h-screen">
           <div className="card-register bg-gray-300 rounded-xl shadow-sm shadow-slate-400 px-3 py-10">
@@ -93,7 +103,7 @@ const RegisterPage = () => {
             </form>
           </div>
         </div>
-      </div>
+        </div>
     </>
   );
 };

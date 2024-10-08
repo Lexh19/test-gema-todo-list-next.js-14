@@ -5,12 +5,22 @@ const AboutUsPage = () => {
   return (
     <>
       <Head>
-        <title>Tentang Kami | To do lits</title>
+        <title>Tentang Kami | To do lists</title>
       </Head>
       <LayoutFirst>
         <p className="text-4xl font-bold text-center">Tentang Kami</p>
         <div className="flex justify-center px-10 mt-5">
-            <p className="text-xl">Todos Now adalah platform yang didedikasikan untuk mempermudah pengguna dalam mencatat dan mengatur tugas-tugas sehari-hari secara efisien. Kami percaya bahwa dengan menyederhanakan proses perencanaan dan pelaksanaan tugas-tugas, setiap individu dapat mencapai lebih banyak dalam hidup mereka. <br />Kami menawarkan pengalaman pengguna yang jelas dan mudah dipahami, dengan fokus pada kegunaan dan kecepatan. Tujuan kami bukan hanya menyediakan alat untuk mencatat to-do list, tetapi juga untuk menjadi alat yang dapat diandalkan dalam mengorganisir setiap langkah menuju tujuan. Dengan pendekatan ini, Todos Now membantu memastikan bahwa tidak ada detail kecil pun yang terlewatkan dalam perjalanan pencapaian tujuan pribadi dan profesional Anda. <br />Tim kami terdiri dari individu yang bersemangat dan berpengalaman dalam mengembangkan solusi teknologi yang bermanfaat. Kami berkomitmen untuk terus meningkatkan platform ini agar dapat memenuhi kebutuhan dan harapan pengguna kami dengan baik. Bersama Todos Now, mari rancang masa depan yang lebih teratur dan produktif, langkah demi langkah.</p>
+          <div className="text-xl">
+            <p>
+              To do list adalah platform yang dirancang untuk memudahkan pengguna dalam mencatat dan mengelola tugas harian dengan efisien. Kami percaya bahwa dengan menyederhanakan proses perencanaan dan pelaksanaan, setiap orang dapat mencapai lebih banyak dalam hidup mereka.
+            </p>
+            <p className="mt-4">
+              Dengan antarmuka yang intuitif dan fokus pada kegunaan serta kecepatan, kami tidak hanya menyediakan alat untuk mencatat to-do list, tetapi juga menjadi mitra yang andal dalam mengatur setiap langkah menuju pencapaian tujuan. Todos Now membantu memastikan setiap detail penting diperhatikan dalam perjalanan meraih sukses pribadi maupun profesional.
+            </p>
+            <p className="mt-4">
+              Tim kami terdiri dari individu berpengalaman dan berdedikasi dalam menciptakan solusi teknologi yang bermanfaat. Kami berkomitmen untuk terus mengembangkan platform ini agar selalu memenuhi kebutuhan dan harapan pengguna. Bersama Todos Now, mari wujudkan masa depan yang lebih terorganisir dan produktif, satu langkah pada satu waktu.
+            </p>
+          </div>
         </div>
       </LayoutFirst>
     </>
